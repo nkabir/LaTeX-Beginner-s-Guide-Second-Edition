@@ -1,0 +1,53 @@
+# gitignore for glasswork
+###############################################################################
+# generated from catalog template
+###############################################################################
+
+# emacs temp files
+*~
+\#*
+.#*
+._*
+.redo
+*.log
+.peru
+*.pid
+.tox
+*.swp
+wheelhouse
+
+auto
+build
+dist
+
+.direnv
+.env
+
+# ansible artifacts
+*.retry
+
+# redo artifacts
+*.done
+
+# Git merge file artifact
+*.orig
+
+.redo
+
+sandbox
+
+# json conversion of glassware.yaml for schema validation
+glassware.json
+
+latexbg2.rst
+latexbg2.in.rst
+latexbg2.env
+latexbg2.envrc
+__pycache__
+.DS_Store
+node_modules
+.rebel_readline_history
+
+temp
+.gradle
+target
